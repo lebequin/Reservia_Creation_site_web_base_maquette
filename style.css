@@ -7,3 +7,212 @@
 .color3 {
     color: #F2F2F2;
 }
+
+li {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/Raleway-Regular.ttf');
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+nav a:hover {
+    border-top: 2px solid #0065FC;
+    transition: ease-in-out 0.2s;
+    color: #0065fc;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+    padding-left: 0;
+    margin:25px;
+}
+
+nav a {
+    color:#000;
+    font-family: 'Raleway';
+    text-decoration: none;
+    padding: 14px 10px;
+}
+
+.logo {
+    padding:10px;
+}
+.research {
+    margin: 0 40px;
+}
+
+.research h1 {
+    margin: 7px 0;
+}
+  
+.research > p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+  
+  .search-bar {
+    margin: 25px 0;
+  }
+  
+.search-bar > input {
+    border-radius: 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-left: 0;
+    border-right: 0;
+    width: 180px;
+    outline: none;
+}
+
+input.submit {
+    background-color: #0065fc;
+    color:#fff;
+    border: 1px solid #0065fc;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 100px;
+}
+    
+
+.fas.fa-map-marker-alt {
+    background-color: #ddd;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    padding-top: 10px;
+    transform: translateY(1px);
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.filters i {
+    background-color: #dfecff;
+    padding: 11px;
+    border-radius: 50%;
+    width: 16px;
+    text-align: center;
+    transform: translate(-10px, 0.5px);
+}
+  
+.filters a {
+    border: 2px solid #ddd;
+    padding: 8px;
+    border-radius: 25px;
+}
+  
+.filters a {
+    font-weight: bold;
+}
+
+i.fa-info {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    color: #0065fc;
+    padding: 5px;
+    font-size: 11px;
+    width: 11px;
+    transform: translate(0);
+}
+  
+
+#housing {
+    display: flex;
+    margin: 0 40px;
+}
+
+.card > img {
+    max-width: 250px;
+}
+  
+#housing article {
+    max-width: 70%;
+    margin-right: 5%;
+    background-color: #f2f2f2;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+  
+#housing aside {
+    max-width: 25%;
+    background-color: #f2f2f2;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+  
+.flex {
+    display: flex;
+    flex-flow: wrap;
+}
+  
+article .flex {
+    justify-content: space-between;
+}
+  
+.card {
+    border: 5px solid #fff;
+    border-radius: 18px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+  
+.card h3 {
+    margin: 10px 10px 0px;
+}
+  
+.card p {
+    margin: 5px 10px 5px;
+}
+
+.card > img {
+    border-radius: 12px;
+}
+
+#activities img {
+    max-width: 250px;
+}
+  
+#activities {
+    margin: 0 40px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+  
+footer {
+    background-color: #f2f2f2;
+    display: flex;
+}
+  
+footer > div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    width: 30%;
+}
+  
+footer {
+    padding: 40px;
+}
+  
+footer div a {
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+}
+  
