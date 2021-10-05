@@ -37,6 +37,11 @@ body {
     color: #0065fc;
 }
 
+.inscription:hover {
+    border-top: 2px solid #0065fc;
+    padding-top: 23px;
+  }
+  
 #desktop ul {
     display: flex;
     flex-direction: row;
@@ -50,13 +55,28 @@ body {
     color:#000;
     font-family: 'Raleway';
     text-decoration: none;
-    padding: 14px 10px;
+    padding: 23px 10px;
 }
-
 .inscription {
+    font-family: 'Raleway';
+    text-decoration: none;
+    padding: 25px 10px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight:bold;
     color:#0065fc;
 }
 
+#mobile {
+    display: none;
+  }
+
+  #desktop ul {
+    justify-content: space-between;
+    width: 250px;
+    margin-left: 880px;
+  }
+  
 .logo {
     margin-left: 30px;
     padding:10px;
@@ -409,7 +429,7 @@ header label {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 821px) {
 
     .fa-info {
         padding: 7px;
@@ -480,6 +500,11 @@ header label {
     #activities {
         margin: 40px 40px 0px;
     }
+    #desktop ul {
+        justify-content: space-between;
+        width: 250px;
+        margin-left: 190px;
+      }
   
 }
 
@@ -630,6 +655,7 @@ header label {
     }
     
     #mobile {
+        display: flex;
         width: 100%;
     }
     
@@ -646,15 +672,6 @@ header label {
     }
     #mobile li:hover {
         border-bottom: 2px solid #0065fc;
-    }
-    
-    .inscription {
-        font-family: 'Raleway';
-        text-decoration: none;
-        padding: 28px 10px;
-        text-align: right;
-        margin-right: 10px;
-        font-weight:bold;
     }
 
     header {
