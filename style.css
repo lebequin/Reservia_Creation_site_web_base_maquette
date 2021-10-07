@@ -10,6 +10,11 @@
 .color4{
     color: #dbdbdb;
 }
+.h3{
+    margin:0;
+    font-size:18px;
+    font-weight:700;   
+}
 
 li {
     list-style-type: none;
@@ -235,7 +240,7 @@ article .flex {
     margin-bottom: 30px;
 }
   
-.card h3 {
+.card .h3 {
     margin: 10px 10px 0px;
 }
   
