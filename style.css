@@ -213,6 +213,10 @@ article .card > img {
     border-radius: 30px;
 }
 
+.activity-card h3 {
+    margin: 0;
+    padding: 8px 15px;
+}
   
 .card.card-1 span, .card.card-5 span {
     font-weight: bold;
