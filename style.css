@@ -492,11 +492,11 @@ header label {
         grid-row-end: 11;
     }
     
-    .activity-card p {
+    .activity-card h3 {
         padding: 3px 15px;
     }
     
-    a.activity-card:nth-child(3) p, a.activity-card:nth-child(5) p {
+    a.activity-card:nth-child(3) h3, a.activity-card:nth-child(5) h3 {
         padding: 2px 15px;
     }
 
@@ -592,10 +592,10 @@ header label {
     a.activity-card > img {
         height: 80%!important;
     }
-    .activity-card p {
+    .activity-card h3 {
       padding: 10px 15px;
     }
-    a.activity-card:nth-child(3) p, a.activity-card:nth-child(5) p {
+    a.activity-card:nth-child(3) h3, a.activity-card:nth-child(5) h3 {
       padding: 10px 15px;
     }
 
