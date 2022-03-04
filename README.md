@@ -9,7 +9,7 @@
 ***
 ## 📎 Projet 2 - Transformez une maquette en site web avec HTML & CSS - Réservia
 
-Le site hébergé sur GitHub : [Réservia](https://lebequin.github.io/LeoBequin_2_14092021/)
+Le site hébergé sur GitHub : [Réservia](https://lebequin.github.io/Reservia_Creation_site_web_base_maquette/)
 
 ### 🔨 Créer un site grâce à HTML & CSS
 
